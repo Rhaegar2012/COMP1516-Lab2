@@ -1,16 +1,19 @@
+# author: Jose Tellez and Joey Tran
 import utilities
 
+
 def main():
-    pass
-
-def get_circle_radius():
     circle_radius = float(input("Enter the radius of a circle in cm: "))
-    return circle_radius
+    circle_area = utilities.calculate_circle_area(circle_radius)
+    print(f"The area of the circle is: {circle_area}")
 
-def get_sphere_radius():
     sphere_radius = float(input("Enter the radius of a sphere in cm: "))
-    return sphere_radius
+    sphere_volume = utilities.calculate_sphere_volume(sphere_radius)
+    print(f"The volume of the sphere is: {sphere_volume}")
+
+    print(f"The Body Mass Index is: {utilities.calculate_BMI()}")
+    print(f"The hypotenuse length of the right triangle is: {utilities.calculate_hypotenuse()}")
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
