@@ -38,7 +38,7 @@ def calculate_hypotenuse():
     Calculates hypotenuse length of right triangle
     :return: hypotenuse length of right triangle
     """
-    side_a_length = float(input("Enter the length of side A in cm"))
-    side_b_length = float(input("Enter the length of side B in cm"))
+    side_a_length = float(input("Enter the length of side A in cm: "))
+    side_b_length = float(input("Enter the length of side B in cm: "))
     hypotenuse_length = math.hypot(side_a_length, side_b_length)
     return hypotenuse_length
