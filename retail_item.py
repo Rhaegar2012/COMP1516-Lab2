@@ -1,4 +1,4 @@
-# Author: Jose Tellez
+# author: Jose Tellez and Joey Tran
 def main():
     item_description = get_retail_item_description()
     number_purchased_items = get_number_purchased_items()
